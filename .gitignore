@@ -1,0 +1,32 @@
+# Raw data files
+data/raw/*.zip
+data/raw/*.mp4
+
+# Extracted / processed data
+data/extracted/
+data/processed/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Power BI
+*.pbix
+*.pbit
+
+# Tableau
+*.twb
+*.twbx
+
+# Temporary files
+*.tmp
+*.log
+
+# OS
+Thumbs.db
+.DS_Store

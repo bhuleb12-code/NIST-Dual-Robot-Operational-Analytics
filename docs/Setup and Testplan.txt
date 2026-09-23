@@ -1,0 +1,50 @@
+Baseline Data Collection
+
+Date: 4.18.18
+
+
+UR Scripts V5
+PLC 1.4.3
+
+60 Parts Numbered
+Justified to bottom left of holder
+6 Blue Nominal card holders used
+Kept in order 1-6
+
+Robots Exercised 30 no parts before data collection began.
+
+Start with robots running
+Input loaded with first 3 parts
+UR5 at Output waiting
+UR3 at fixture 1 waiting
+PLC cold start
+PLC data monitoring and collection turned on for Process data, robots (UR3 & UR5) and Optoforce FT sensor
+Auto load turned on
+auto unload verified on
+RTDE collection started 
+Process start button pressed
+
+During data collection card holders are repleneshed with a fresh card and placed back onto input ramp as they complete
+Cards are pre-numbered
+Cards input in order 1-60
+Complete cards kept
+
+Start PLC Time 3:27PM 4.18.18
+
+End of Data Collection
+
+Autoload turned off after part 60 loaded
+System ran through the completion of part 60
+PLC Task assignemnt stopped
+RTDE data collection stopped
+PLC data collection and monitoring stopped
+Robots turned off
+Robot log files transfered
+Data files and program files compiled
+System shutdown
+
+PLC End time around 4:15PM
+
+Systems logs, configuration files and programs copied from robot controllers using urmagic files method
+Event logs were cleaned to show only events relevant to the baseline collection
+Also note time stamps on the URs are in European Summer Time... no easy way to change. 
