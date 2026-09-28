@@ -30,3 +30,4 @@ venv/
 # OS
 Thumbs.db
 .DS_Store
+*.twbr
