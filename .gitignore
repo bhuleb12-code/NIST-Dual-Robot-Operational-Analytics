@@ -22,6 +22,7 @@ venv/
 # Tableau
 *.twb
 *.twbx
+!NIST Robotic Work Cell Operational Intelligence.twb
 
 # Temporary files
 *.tmp
